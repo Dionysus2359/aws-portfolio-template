@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT 1: Change your name here, in the header, hero and footer. -->
+  <title>Om Tiwari — Student Developer</title>
+  <meta name="description" content="Om Tiwari’s corner of the internet. A student developer exploring the web, design, and the cloud.">
+  <meta name="theme-color" content="#f8f5ef">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Om Tiwari, back to top">Om Tiwari<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <p class="header-note">Student developer <span aria-hidden="true">·</span> SNU</p>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>
+        <span class="menu-label">Menu</span><span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="main-nav" aria-label="Main navigation">
+        <a class="nav-work" href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-name">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> A little corner of the internet</p>
+          <h1 id="hero-name">OM TIWARI<span class="name-dot">.</span></h1>
+          <h2>Learning. Building.<br>Making things <span class="underline-green">happen.</span></h2>
+          <!-- EDIT 2: A short introduction, in your own words. -->
+          <p class="hero-description">I’m Om, a computer science student exploring the web, design, and the cloud. I like turning a small idea into something you can actually use.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-footnote"><span aria-hidden="true">↓</span> Some things I’ve been exploring</p>
+        </div>
+
+        <!-- EDIT 3: Change OT to your initials, or replace this artwork with a photo. -->
+        <div class="identity-art" role="img" aria-label="An OT monogram with a currently learning AWS note, on a playful pink and green collage">
+          <div class="art-grid"></div>
+          <div class="art-square"></div>
+          <div class="monogram">OT<span class="monogram-period">.</span></div>
+          <svg class="art-spark" aria-hidden="true" viewBox="0 0 76 76" fill="none"><path d="m37 5 4 27 26-15-16 25 20 10-30-3-8 23-4-27L6 46l20-12L17 9l20 17Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="art-rays" aria-hidden="true" viewBox="0 0 100 65" fill="none"><path d="m12 45 8-28m23 24 22-24m-6 42 29-9" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg>
+          <div class="learning-note"><span class="note-pin" aria-hidden="true"></span>Currently learning <b>AWS</b><span class="note-underline" aria-hidden="true"></span></div>
+          <span class="art-caption">curiosity → small experiments → new things</span>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <h2 id="work-title"><span class="section-slash" aria-hidden="true"></span>Selected projects</h2>
+          <span class="heading-rule" aria-hidden="true"></span>
+          <p>Small ideas. Room to grow.</p>
+        </div>
+        <!-- EDIT 4: These are clearly labelled sample projects. Replace them with your work. -->
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art project-art-campus"><img src="assets/campus-compass.svg" alt="Illustration of a campus building, green hills and a pink location pin" width="680" height="480" decoding="async"><span class="project-number">01 / SAMPLE PROJECT</span></div>
+            <div class="project-copy">
+              <h3>Campus Compass</h3>
+              <p>An idea for helping students find their way around campus, one useful place at a time.</p>
+              <ul class="tags" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <details class="project-notes"><summary>Project notes <span aria-hidden="true">↗</span></summary><div><p>This is a sample portfolio entry, not a live application. Use this space to explain a project’s idea, your contribution, and one thing you learned.</p><p>When you have a real project, add its live-site and source-code links here.</p></div></details>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-art-focus"><img src="assets/focusflow.svg" alt="Illustration of a checklist and a pink stopwatch on a green background" width="680" height="480" decoding="async"><span class="project-number">02 / SAMPLE PROJECT</span></div>
+            <div class="project-copy">
+              <h3>FocusFlow</h3>
+              <p>A little study-companion concept for breaking big to-do lists into smaller, calmer steps.</p>
+              <ul class="tags" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <details class="project-notes"><summary>Project notes <span aria-hidden="true">↗</span></summary><div><p>This is a sample portfolio entry. You can replace it with a class assignment, a club project, a design experiment, or even this first deployed portfolio.</p><p>Describe what you made honestly. An interesting small project is a great starting point.</p></div></details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-title"><p class="eyebrow">The person behind the pixels</p><h2 id="about-title"><span class="section-slash section-slash-green" aria-hidden="true"></span>A little<br> about me<span class="green-period">.</span></h2></div>
+        <!-- EDIT 5: Your story, interests and current skills. You don’t need years of experience. -->
+        <div class="about-copy"><p>I’m a student who enjoys figuring out how things work, then trying to build a version of my own.</p><p>Right now, I’m exploring web development and learning how to take a project from my laptop to the cloud. Outside the code, there’s always another idea in the notebook.</p><span class="handwritten-note">Still learning. Always curious.</span></div>
+        <div class="skills"><h3>In my toolkit</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><p class="learning-skill"><span aria-hidden="true">↗</span> Learning AWS</p><p class="skills-footnote">A work in progress,<br>just like me.</p></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div><p class="eyebrow">An idea? A question? A good hello?</p><h2 id="contact-title">Let’s build<br><span class="underline-pink">something.</span></h2></div>
+        <div class="contact-links">
+          <!-- EDIT 6: Replace the demo email with yours. No contact form or backend is needed. -->
+          <a href="mailto:hello@example.com"><span><small>Email / demo address</small>hello@example.com</span><span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Dionysus2359" target="_blank" rel="noopener noreferrer"><span><small>Find me on</small>GitHub</span><span aria-hidden="true">↗</span></a>
+          <!-- Optional: add your own verified LinkedIn/profile link here. -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>© <span id="year">2026</span> Om Tiwari<span class="footer-divider" aria-hidden="true">/</span>Built with a little curiosity.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  </div>
+</body>
+</html>
